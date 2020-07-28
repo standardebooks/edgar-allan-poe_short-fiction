@@ -52,7 +52,7 @@
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
-		<dc:language>en-GB</dc:language>
+		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/25525</dc:source>
 		<dc:source>https://archive.org/details/worksofedgaralla01poeeuoft</dc:source>
 		<dc:source>https://archive.org/details/worksofedgaralla02poeeuoft</dc:source>
