@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 footer{
 	margin-top: 1em;
@@ -38,6 +39,10 @@ tfoot td:not(:empty){
 span[epub|type~="subtitle"]{
 	display: block;
 	font-weight: normal;
+}
+
+blockquote[xml|lang]{
+	font-style: italic;
 }
 
 /* All epigraphs */
@@ -140,6 +145,11 @@ p span.i3{
 
 /* story-specific styles */
 
+#the-unparalleled-adventures-of-one-hans-pfaall [epub|type~="z3998:letter"]{
+	margin-left: 0;
+	margin-right: 0;
+}
+
 #the-business-man table{
 	width: 100%;
 }
@@ -167,6 +177,11 @@ p span.i3{
 	text-align: right;
 }
 
+#diddling > blockquote:last-of-type{
+	text-align: center;
+	font-variant: small-caps;
+}
+
 #thou-art-the-man [epub|type~="z3998:letter"] header{
 	border-width: 0 0 1px;
 	border-style: solid;
@@ -186,4 +201,9 @@ p span.i3{
 		padding: 0 .5em 0 0;
 		writing-mode: sideways-lr;
 	}
+}
+
+#the-literary-life-of-thingum-bob-esq blockquote:last-of-type{
+	text-align: center;
+	font-style: italic;
 }
