@@ -85,7 +85,7 @@
 		<meta property="role" refines="#introduction-2" scheme="marc:relators">aui</meta>
 		<dc:creator id="introduction-3">Nathaniel Parker Willis</dc:creator>
 		<meta property="file-as" refines="#introduction-3">Willis, Nathaniel Parker</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#introduction-3https://en.wikipedia.org/wiki/Nathaniel_Parker_Willis</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#introduction-3">https://en.wikipedia.org/wiki/Nathaniel_Parker_Willis</meta>
 		<meta property="se:url.authority.nacoaf" refines="#introduction-3">https://id.loc.gov/authorities/names/n82113974</meta>
 		<meta property="role" refines="#introduction-3" scheme="marc:relators">aui</meta>
 		<dc:contributor id="transcriber-1">David Widger</dc:contributor>

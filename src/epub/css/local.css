@@ -144,7 +144,6 @@ p span.i3{
 }
 
 /* story-specific styles */
-
 #the-unparalleled-adventures-of-one-hans-pfaall [epub|type~="z3998:letter"]{
 	margin-left: 0;
 	margin-right: 0;
@@ -162,7 +161,7 @@ p span.i3{
 	text-align: right;
 }
 
-#never-bet-the-devil-your-head p:nth-last-child(4)>em{
+#never-bet-the-devil-your-head p:nth-last-child(4) > em{
 	display: block;
 	text-align: center;
 	text-indent: 0;
