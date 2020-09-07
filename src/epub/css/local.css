@@ -7,6 +7,10 @@ footer{
 	text-align: right;
 }
 
+time{
+	font-style: italic;
+}
+
 table{
 	border-collapse: collapse;
 	margin: 1em 0;
@@ -199,6 +203,10 @@ table[epub|type~="z3998:drama"],
 	font-variant: all-small-caps;
 }
 
+[epub|type~="z3998:diary-entry"]{
+	margin-top: .5em;
+}
+
 /* story-specific styles */
 #the-unparalleled-adventures-of-one-hans-pfaall [epub|type~="z3998:letter"]{
 	margin-left: 0;
@@ -261,4 +269,8 @@ table[epub|type~="z3998:drama"],
 #the-literary-life-of-thingum-bob-esq blockquote:last-of-type{
 	text-align: center;
 	font-style: italic;
+}
+
+#mellonta-tauta-8 > blockquote{
+	text-align: center;
 }
