@@ -40,11 +40,6 @@ tfoot td:not(:empty){
 	border-top: 1px solid;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 blockquote[xml|lang]{
 	font-style: italic;
 }
