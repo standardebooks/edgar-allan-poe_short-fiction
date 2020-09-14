@@ -171,7 +171,7 @@
 		<item href="text/the-spectacles.xhtml" id="the-spectacles.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-sphinx.xhtml" id="the-sphinx.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-system-of-doctor-tarr-and-professor-fether.xhtml" id="the-system-of-doctor-tarr-and-professor-fether.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/the-tell-tale-heart.xhtml" id="the-tell-tale-heart.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-telltale-heart.xhtml" id="the-telltale-heart.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-thousand-and-second-tale-of-scheherazade.xhtml" id="the-thousand-and-second-tale-of-scheherazade.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-unparalleled-adventures-of-hans-pfaall.xhtml" id="the-unparalleled-adventures-of-hans-pfaall.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/thou-art-the-man.xhtml" id="thou-art-the-man.xhtml" media-type="application/xhtml+xml"/>
@@ -229,7 +229,7 @@
 		<itemref idref="the-landscape-garden.xhtml"/>
 		<itemref idref="the-mystery-of-marie-roget.xhtml"/>
 		<itemref idref="the-pit-and-the-pendulum.xhtml"/>
-		<itemref idref="the-tell-tale-heart.xhtml"/>
+		<itemref idref="the-telltale-heart.xhtml"/>
 		<itemref idref="the-gold-bug.xhtml"/>
 		<itemref idref="the-black-cat.xhtml"/>
 		<itemref idref="diddling.xhtml"/>
