@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>s-005</code>
+			<reason>Correctly nested blockquotes.</reason>
+		</ignore>
+	</file>
+	<file path="ms-found-in-a-bottle.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>MS. is the correct abbreviation for this title.</reason>
+		</ignore>
+	</file>
+	<file path="the-fall-of-the-house-of-usher.xhtml">
+		<ignore>
+			<code>s-007</code>
+			<reason>Section is an applicable block-level child.</reason>
+		</ignore>
+	</file>
+	<file path="the-gold-bug.xhtml">
+		<ignore>
+			<code>t-021</code>
+			<reason>Punctuation used as part of a cypher.</reason>
+		</ignore>
+		<ignore>
+			<code>t-041</code>
+			<reason>Punctuation used as part of a cypher.</reason>
+		</ignore>
+	</file>
+	<file path="thou-art-the-man.xhtml">
+		<ignore>
+			<code>t-005</code>
+			<reason>No need for punctuation inside quoted name.</reason>
+		</ignore>
+	</file>
+	<file path="x-ing-a-paragraph.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>Non-standard title case correct here.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
