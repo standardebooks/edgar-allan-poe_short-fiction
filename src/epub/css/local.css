@@ -2,6 +2,10 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
+blockquote header{
+	margin-bottom: 1em;
+}
+
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -140,6 +144,10 @@ p span.i2{
 p span.i3{
 	text-indent: -1em;
 	padding-left: 4em;
+}
+
+p[epub|type~="se:letter.dateline"]{
+	text-align: right;
 }
 
 [epub|type~="z3998:salutation"],
