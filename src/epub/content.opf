@@ -75,10 +75,10 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79029745</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<dc:contributor id="artist">Robert Delaunay</dc:contributor>
+		<meta property="file-as" refines="#artist">Delaunay, Robert</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Robert_Delaunay</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n50039043</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="introduction-1">William Heath Robinson</dc:contributor>
 		<meta property="file-as" refines="#introduction-1">Robinson, William Heath</meta>
