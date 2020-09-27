@@ -182,7 +182,7 @@
 		<item href="text/the-system-of-doctor-tarr-and-professor-fether.xhtml" id="the-system-of-doctor-tarr-and-professor-fether.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-telltale-heart.xhtml" id="the-telltale-heart.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/the-thousand-and-second-tale-of-scheherazade.xhtml" id="the-thousand-and-second-tale-of-scheherazade.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/the-unparalleled-adventures-of-hans-pfaall.xhtml" id="the-unparalleled-adventures-of-hans-pfaall.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/the-unparalleled-adventure-of-hans-pfaall.xhtml" id="the-unparalleled-adventure-of-hans-pfaall.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/thou-art-the-man.xhtml" id="thou-art-the-man.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/three-sundays-in-a-week.xhtml" id="three-sundays-in-a-week.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -209,7 +209,7 @@
 		<itemref idref="berenice.xhtml"/>
 		<itemref idref="morella.xhtml"/>
 		<itemref idref="lionizing.xhtml"/>
-		<itemref idref="the-unparalleled-adventures-of-hans-pfaall.xhtml"/>
+		<itemref idref="the-unparalleled-adventure-of-hans-pfaall.xhtml"/>
 		<itemref idref="king-pest.xhtml"/>
 		<itemref idref="shadow.xhtml"/>
 		<itemref idref="four-beasts-in-one.xhtml"/>
