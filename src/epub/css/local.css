@@ -150,6 +150,10 @@ p[epub|type~="se:letter.dateline"]{
 	text-align: right;
 }
 
+footer p[epub|type~="se:letter.dateline"]{
+	text-align: left;
+}
+
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
