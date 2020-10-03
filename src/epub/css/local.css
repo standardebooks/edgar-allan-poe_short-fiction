@@ -11,7 +11,8 @@ footer{
 	text-align: right;
 }
 
-time{
+time,
+q{
 	font-style: italic;
 }
 
