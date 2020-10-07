@@ -128,10 +128,6 @@ section > header [epub|type~="epigraph"] + *{
 	display: none;
 }
 
-[epub|type~="z3998:poem"] header > p{
-	text-align: center;
-}
-
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
@@ -235,6 +231,18 @@ table[epub|type~="z3998:drama"],
 	text-align: left;
 	font-variant: normal;
 	font-style: italic;
+}
+
+#the-fall-of-the-house-of-usher [epub|type~="z3998:poem"] > section + section{
+	margin-top: 2em;
+}
+
+#the-fall-of-the-house-of-usher [epub|type~="z3998:poem"] header > p{
+	text-align: center;
+}
+
+#the-fall-of-the-house-of-usher [epub|type~="z3998:poem"] header + p{
+	margin-top: 0;
 }
 
 #the-business-man table{
