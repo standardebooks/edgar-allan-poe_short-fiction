@@ -38,6 +38,7 @@ td{
 }
 
 td:first-child{
+	vertical-align: top;
 	padding-left: 0;
 }
 
