@@ -265,12 +265,21 @@ table[epub|type~="z3998:drama"],
 	margin: 0.5em 0;
 }
 
-#the-gold-bug td:nth-last-child(2){
-	text-align: center;
+#the-gold-bug > blockquote:nth-of-type(2){
+	word-break: break-all;
 }
 
-#the-gold-bug td:last-child{
+#the-gold-bug table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#the-gold-bug td{
 	text-align: right;
+}
+
+#the-gold-bug td:nth-last-child(2){
+	text-align: center;
 }
 
 #diddling > blockquote:last-of-type{
