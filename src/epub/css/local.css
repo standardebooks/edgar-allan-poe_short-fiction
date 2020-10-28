@@ -11,8 +11,9 @@ footer{
 	text-align: right;
 }
 
-time,
-q{
+dfn,
+q,
+time{
 	font-style: italic;
 }
 
@@ -280,11 +281,6 @@ table[epub|type~="z3998:drama"],
 
 #the-gold-bug td:nth-last-child(2){
 	text-align: center;
-}
-
-#diddling > blockquote:last-of-type{
-	text-align: center;
-	font-variant: small-caps;
 }
 
 #thou-art-the-man [epub|type~="z3998:letter"] header{
