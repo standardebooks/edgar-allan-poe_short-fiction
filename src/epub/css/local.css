@@ -13,7 +13,8 @@ footer{
 
 dfn,
 q,
-time{
+time,
+var{
 	font-style: italic;
 }
 
