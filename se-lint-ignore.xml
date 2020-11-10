@@ -34,7 +34,7 @@
 			<reason>No need for punctuation inside quoted name.</reason>
 		</ignore>
 	</file>
-	<file path="x-ing-a-paragraph.xhtml">
+	<file path="x-ing-a-paragrab.xhtml">
 		<ignore>
 			<code>s-023</code>
 			<reason>Non-standard title case correct here.</reason>

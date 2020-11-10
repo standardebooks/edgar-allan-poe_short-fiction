@@ -190,7 +190,7 @@
 		<item href="text/von-kempelen-and-his-discovery.xhtml" id="von-kempelen-and-his-discovery.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/why-the-little-frenchman-wears-his-hand-in-a-sling.xhtml" id="why-the-little-frenchman-wears-his-hand-in-a-sling.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/william-wilson.xhtml" id="william-wilson.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/x-ing-a-paragraph.xhtml" id="x-ing-a-paragraph.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/x-ing-a-paragrab.xhtml" id="x-ing-a-paragrab.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
@@ -263,7 +263,7 @@
 		<itemref idref="mellonta-tauta.xhtml"/>
 		<itemref idref="hop-frog.xhtml"/>
 		<itemref idref="von-kempelen-and-his-discovery.xhtml"/>
-		<itemref idref="x-ing-a-paragraph.xhtml"/>
+		<itemref idref="x-ing-a-paragrab.xhtml"/>
 		<itemref idref="landors-cottage.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
