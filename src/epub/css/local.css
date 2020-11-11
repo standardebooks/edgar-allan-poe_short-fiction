@@ -84,19 +84,19 @@ abbr.era{
 /* End all epigraphs */
 
 /* Epigraphs in section headers */
-section > header [epub|type~="epigraph"]{
+article > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
 	max-width: 80%;
 	text-align: left;
 }
 
-section > header [epub|type~="epigraph"] + *{
+article > header [epub|type~="epigraph"] + *{
 	margin-top: 3em;
 }
 
 @supports(display: table){
-	section > header [epub|type~="epigraph"]{
+	article > header [epub|type~="epigraph"]{
 		display: table;
 	}
 }
@@ -110,7 +110,6 @@ section > header [epub|type~="epigraph"] + *{
 }
 
 [epub|type~="z3998:poem"] p + p,
-[epub|type~="z3998:song"] p + p,
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
@@ -168,8 +167,7 @@ footer p[epub|type~="se:letter.dateline"]{
 	text-align: left;
 }
 
-[epub|type~="z3998:drama"],
-[epub|type~="z3998:drama"] table{
+[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
 }
 
@@ -201,8 +199,7 @@ footer p[epub|type~="se:letter.dateline"]{
 	width: 20%;
 }
 
-table[epub|type~="z3998:drama"],
-[epub|type~="z3998:drama"] table{
+table[epub|type~="z3998:drama"]{
 	margin: 1em auto;
 }
 
