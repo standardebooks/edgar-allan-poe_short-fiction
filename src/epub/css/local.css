@@ -231,7 +231,7 @@ table[epub|type~="z3998:drama"]{
 	margin-right: 0;
 }
 
-#the-unparalleled-adventure-of-one-hans-pfaall > [epub|type~="z3998:letter"] p[epub|type~="z3998:salutation"] {
+#the-unparalleled-adventure-of-one-hans-pfaall > [epub|type~="z3998:letter"] p[epub|type~="z3998:salutation"]{
 	text-align: left;
 	font-variant: normal;
 	font-style: italic;

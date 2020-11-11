@@ -66,7 +66,7 @@
 		<dc:source>https://archive.org/details/worksofedgaralla02poeeuoft</dc:source>
 		<dc:source>https://archive.org/details/worksofedgaralla03poeeuoft</dc:source>
 		<dc:source>https://archive.org/details/worksofedgaralla04poeeuoft</dc:source>
-		<meta property="se:production-notes">Spine order from https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales. “The Balloon-Hoax” omitted from this collection as it’s a hoax article and not a piece of short fiction.</meta>
+		<meta property="se:production-notes">Spine order from https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales. “The Balloon-Hoax” omitted from this collection as it’s a hoax article and not a piece of short fiction. Typogrify currently breaks General A. B. C.’s name, and an explicit layout in “The Gold-Bug,” so isn’t safe to run against every story.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales</meta>
