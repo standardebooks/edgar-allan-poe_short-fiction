@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2020-11-18T00:18:28Z</dc:date>
+		<meta property="dcterms:modified">2020-11-18T00:18:28Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -56,9 +56,9 @@
 		<meta property="se:subject">Shorts</meta>
 		<dc:description id="description">A collection of Edgar Allan Poe’s short fiction, ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe"&gt;Edgar Allan Poe&lt;/a&gt; is one of the primary figures of American nineteenth-century literature. His writing was heavily influenced by Romanticism ideals of emotion and feeling, and although mostly known these for his Gothic-tinged horror his tales jump between many different genres, including science-fiction, satire, humor, mystery, and even early detective fiction.&lt;/p&gt;
-			&lt;p&gt;Poe mostly wrote short stories and poems, published in magazines and periodicals like the &lt;i&gt;Southern Literary Messenger&lt;/i&gt; and &lt;i&gt;Graham’s Magazine&lt;/i&gt;, although he also turned his hand to essays and novels (including &lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe/the-narrative-of-arthur-gordon-pym-of-nantucket"&gt;&lt;i&gt;The Narrative of Arthur Gordon Pym of Nantucket&lt;/i&gt;&lt;/a&gt;). He was one of the first American writers to pursue writing as a career but was better received in France than in his native country, and he struggled to make ends meet, resorting to work as a literary critic. His reputation suffered a further blow after his unfortunately early death in 1849 (at the age of 40), when a rival not only wrote an extremely unflattering obituary, but bought the rights to his work and published a compilation with a hit piece for an introduction. This undeserved reputation took many decades to fade, but didn’t hinder praise from other notable authors including &lt;a href="https://standardebooks.org/ebooks/arthur-conan-doyle"&gt;Arthur Conan Doyle&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/h-p-lovecraft"&gt;&lt;abbr&gt;H. P.&lt;/abbr&gt; Lovecraft&lt;/a&gt;.&lt;/p&gt;
-			&lt;p&gt;Collected here are all of Poe’s short fiction, in order of their original magazine publication. Notable stories include “The Gold-Bug,” “The Black Cat,” “The Fall of the House of User,” “The Masque of the Red Death,” “The Pit and the Pendulum,” “The Murders in the Rue Morgue,” and many more.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe"&gt;Edgar Allan Poe&lt;/a&gt; is one of the primary figures of American nineteenth-century literature. His writing was heavily influenced by Romanticism ideals of emotion and feeling, and although mostly known these for his Gothic-tinged horror, his tales jump between many different genres, including science-fiction, satire, humor, mystery, and even early detective fiction.&lt;/p&gt;
+			&lt;p&gt;Poe mostly wrote short stories and poems, published in magazines and periodicals like the &lt;i&gt;Southern Literary Messenger&lt;/i&gt; and &lt;i&gt;Graham’s Magazine&lt;/i&gt;, although he also turned his hand to essays and novels (including &lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe/the-narrative-of-arthur-gordon-pym-of-nantucket"&gt;&lt;i&gt;The Narrative of Arthur Gordon Pym of Nantucket&lt;/i&gt;&lt;/a&gt;). He was one of the first American writers to pursue writing as a career, but was better received in France than in his native country. He struggled to make ends meet and resorted to work as a literary critic. His reputation suffered a further blow after his unfortunately early death in 1849 at the age of 40, when a rival not only wrote an extremely unflattering obituary, but bought the rights to his work and published a compilation with a hit piece for an introduction. This undeserved reputation took many decades to fade, but didn’t hinder praise from other notable authors including &lt;a href="https://standardebooks.org/ebooks/arthur-conan-doyle"&gt;Arthur Conan Doyle&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/h-p-lovecraft"&gt;&lt;abbr&gt;H. P.&lt;/abbr&gt; Lovecraft&lt;/a&gt;.&lt;/p&gt;
+			&lt;p&gt;Collected here ae all of Poe’s short fiction stories, in order of their original magazine publication. Notable stories include “The Gold-Bug,” “The Black Cat,” “The Fall of the House of User,” “The Masque of the Red Death,” “The Pit and the Pendulum,” “The Murders in the Rue Morgue,” and many more.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/25525</dc:source>
@@ -67,8 +67,8 @@
 		<dc:source>https://archive.org/details/worksofedgaralla03poeeuoft</dc:source>
 		<dc:source>https://archive.org/details/worksofedgaralla04poeeuoft</dc:source>
 		<meta property="se:production-notes">Spine order from https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales. “The Balloon-Hoax” omitted from this collection as it’s a hoax article and not a piece of short fiction. Typogrify currently breaks General A. B. C.’s name, and an explicit layout in “The Gold-Bug,” so isn’t safe to run against every story.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">319191</meta>
+		<meta property="se:reading-ease.flesch">57.3</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edgar-allan-poe_short-fiction</meta>
 		<dc:creator id="author">Edgar Allan Poe</dc:creator>
@@ -109,6 +109,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://rightword.com.au/david.php</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
