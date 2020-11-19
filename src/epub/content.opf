@@ -72,7 +72,7 @@
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/edgar-allan-poe_short-fiction</meta>
 		<dc:creator id="author">Edgar Allan Poe</dc:creator>
-		<meta property="file-as" refines="#author">Allan Poe, Edgar</meta>
+		<meta property="file-as" refines="#author">Poe, Edgar Allan</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edgar_Allan_Poe</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79029745</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
