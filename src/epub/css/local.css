@@ -30,7 +30,7 @@ table{
 
 caption{
 	font-style: italic;
-	text-align: left;
+	text-align: initial;
 }
 
 th{
@@ -88,7 +88,7 @@ article > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
 	max-width: 80%;
-	text-align: left;
+	text-align: initial;
 }
 
 article > header [epub|type~="epigraph"] + *{
@@ -105,7 +105,7 @@ article > header [epub|type~="epigraph"] + *{
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -163,7 +163,7 @@ p[epub|type~="se:letter.dateline"]{
 }
 
 footer p[epub|type~="se:letter.dateline"]{
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="z3998:salutation"],
@@ -173,7 +173,7 @@ footer p[epub|type~="se:letter.dateline"]{
 
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="z3998:drama"]{
@@ -241,7 +241,7 @@ table[epub|type~="z3998:drama"]{
 }
 
 #the-unparalleled-adventure-of-one-hans-pfaall > [epub|type~="z3998:letter"] p[epub|type~="z3998:salutation"]{
-	text-align: left;
+	text-align: initial;
 	font-variant: normal;
 	font-style: italic;
 }
