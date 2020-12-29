@@ -153,6 +153,11 @@ p span.i3{
 	text-align: center;
 }
 
+p[epub|type~="z3998:salutation"] + p,
+p[epub|type~="z3998:recipient"] + p{
+	text-indent: 0;
+}
+
 p[epub|type~="se:letter.dateline"]{
 	text-align: right;
 }
