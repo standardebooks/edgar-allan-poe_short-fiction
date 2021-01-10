@@ -324,6 +324,11 @@ table[epub|type~="z3998:drama"]{
 	font-style: italic;
 }
 
+#the-literary-life-of-thingum-bob-esq > blockquote:nth-of-type(7) i,
+#the-literary-life-of-thingum-bob-esq > blockquote:last-of-type i{
+	font-style: normal;
+}
+
 #mellonta-tauta-8 > blockquote{
 	text-align: center;
 }
