@@ -176,8 +176,10 @@ footer p[epub|type~="se:letter.dateline"]{
 	text-align: initial;
 }
 
-[epub|type~="z3998:drama"]{
+table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
+	margin: 1em auto;
+	width: 100%;
 }
 
 [epub|type~="z3998:drama"] tr:first-child td{
@@ -206,10 +208,6 @@ footer p[epub|type~="se:letter.dateline"]{
 	-epub-hyphens: none;
 	text-align: right;
 	width: 20%;
-}
-
-table[epub|type~="z3998:drama"]{
-	margin: 1em auto;
 }
 
 [epub|type~="z3998:stage-direction"]{
