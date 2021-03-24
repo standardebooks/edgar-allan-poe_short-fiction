@@ -134,7 +134,7 @@
 		<item href="text/eleonora.xhtml" id="eleonora.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/four-beasts-in-one.xhtml" id="four-beasts-in-one.xhtml" media-type="application/xhtml+xml"/>
-		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/hop-frog.xhtml" id="hop-frog.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/how-to-write-a-blackwood-article.xhtml" id="how-to-write-a-blackwood-article.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -204,7 +204,7 @@
 		<itemref idref="edgar-allan-poe.xhtml"/>
 		<itemref idref="the-life-of-edgar-allan-poe.xhtml"/>
 		<itemref idref="the-death-of-edgar-allan-poe.xhtml"/>
-		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="halftitlepage.xhtml"/>
 		<itemref idref="metzengerstein.xhtml"/>
 		<itemref idref="the-duc-de-lomelette.xhtml"/>
 		<itemref idref="a-tale-of-jerusalem.xhtml"/>
