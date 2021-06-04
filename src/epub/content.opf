@@ -117,7 +117,6 @@
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
-		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="css/se.css" id="se.css" media-type="text/css"/>
@@ -199,6 +198,7 @@
 		<item href="text/why-the-little-frenchman-wears-his-hand-in-a-sling.xhtml" id="why-the-little-frenchman-wears-his-hand-in-a-sling.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/william-wilson.xhtml" id="william-wilson.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/x-ing-a-paragrab.xhtml" id="x-ing-a-paragrab.xhtml" media-type="application/xhtml+xml"/>
+		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
