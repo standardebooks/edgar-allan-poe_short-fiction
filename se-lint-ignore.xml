@@ -39,5 +39,9 @@
 			<code>s-023</code>
 			<reason>Non-standard title case correct here.</reason>
 		</ignore>
+		<ignore>
+			<code>t-064</code>
+			<reason>Non-standard title case correct here.</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
