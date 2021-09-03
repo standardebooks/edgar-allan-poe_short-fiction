@@ -113,7 +113,7 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://rightword.com.au/david.php</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://thegriggs.org/david/</meta>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
