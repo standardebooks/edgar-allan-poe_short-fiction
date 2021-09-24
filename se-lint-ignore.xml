@@ -28,6 +28,12 @@
 			<reason>Punctuation used as part of a cypher.</reason>
 		</ignore>
 	</file>
+	<file path="the-devil-in-the-belfry.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is not a typo.</reason>
+		</ignore>
+	</file>
 	<file path="thou-art-the-man.xhtml">
 		<ignore>
 			<code>t-005</code>
