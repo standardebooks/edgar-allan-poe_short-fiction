@@ -24,8 +24,8 @@ q em{
 
 table{
 	border-collapse: collapse;
-	margin: 1em 0;
 	font-variant-numeric: tabular-nums;
+	margin: 1em 0;
 }
 
 caption{
@@ -39,13 +39,13 @@ th{
 }
 
 td{
-	vertical-align: bottom;
 	padding-left: .5em;
+	vertical-align: bottom;
 }
 
 td:first-child{
-	vertical-align: top;
 	padding-left: 0;
+	vertical-align: top;
 }
 
 tfoot td:not(:empty){
@@ -73,9 +73,9 @@ blockquote[xml|lang]{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 
 [epub|type~="epigraph"] cite i{
@@ -191,8 +191,8 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:drama"] td{
-	vertical-align: top;
 	padding: .5em;
+	vertical-align: top;
 }
 
 [epub|type~="z3998:drama"] td:last-child{
@@ -239,9 +239,9 @@ table[epub|type~="z3998:drama"]{
 }
 
 #the-unparalleled-adventure-of-one-hans-pfaall > [epub|type~="z3998:letter"] p[epub|type~="z3998:salutation"]{
-	text-align: initial;
-	font-variant: normal;
 	font-style: italic;
+	font-variant: normal;
+	text-align: initial;
 }
 
 #the-fall-of-the-house-of-usher [epub|type~="z3998:poem"] > section + section{
@@ -270,9 +270,9 @@ table[epub|type~="z3998:drama"]{
 
 #never-bet-the-devil-your-head p:nth-last-child(4) > em{
 	display: block;
+	margin: 0.5em 0;
 	text-align: center;
 	text-indent: 0;
-	margin: 0.5em 0;
 }
 
 #the-gold-bug > blockquote:nth-of-type(2){
@@ -293,16 +293,16 @@ table[epub|type~="z3998:drama"]{
 }
 
 #thou-art-the-man [epub|type~="z3998:letter"] header{
-	border-width: 0 0 1px;
 	border-style: solid;
+	border-width: 0 0 1px;
 	margin: 0 0 .5em;
 	padding: 0 0 .5em;
 }
 
 @supports(writing-mode: sideways-lr){
 	#thou-art-the-man [epub|type~="z3998:letter"]{
-		display: flex;
 		align-items: center;
+		display: flex;
 	}
 
 	#thou-art-the-man [epub|type~="z3998:letter"] header{
@@ -318,8 +318,8 @@ table[epub|type~="z3998:drama"]{
 }
 
 #the-literary-life-of-thingum-bob-esq > blockquote:last-of-type{
-	text-align: center;
 	font-style: italic;
+	text-align: center;
 }
 
 #the-literary-life-of-thingum-bob-esq > blockquote:nth-of-type(7) i,
