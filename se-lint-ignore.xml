@@ -27,6 +27,10 @@
 			<code>t-041</code>
 			<reason>Punctuation used as part of a cypher.</reason>
 		</ignore>
+		<ignore>
+			<code>t-042</code>
+			<reason>Matched text is within quotes in context.</reason>
+		</ignore>
 	</file>
 	<file path="the-devil-in-the-belfry.xhtml">
 		<ignore>
