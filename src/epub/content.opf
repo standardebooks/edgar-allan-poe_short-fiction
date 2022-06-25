@@ -53,6 +53,7 @@
 		<meta property="se:subject">Satire</meta>
 		<meta property="se:subject">Science Fiction</meta>
 		<meta property="se:subject">Shorts</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">A collection of Edgar Allan Poe’s short fiction, ordered by date of publication.</dc:description>
