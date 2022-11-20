@@ -48,7 +48,7 @@ td:first-child{
 	vertical-align: top;
 }
 
-tfoot td:not(:empty){
+tfoot td + td{
 	border-top: 1px solid;
 }
 
