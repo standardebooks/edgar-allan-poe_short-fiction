@@ -12,12 +12,6 @@
 			<reason>MS. is the correct abbreviation for this title.</reason>
 		</ignore>
 	</file>
-	<file path="the-fall-of-the-house-of-usher.xhtml">
-		<ignore>
-			<code>s-007</code>
-			<reason>Section is an applicable block-level child.</reason>
-		</ignore>
-	</file>
 	<file path="the-gold-bug.xhtml">
 		<ignore>
 			<code>t-021</code>
