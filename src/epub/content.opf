@@ -56,6 +56,8 @@
 		<meta property="se:is-a-collection">true</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta id="collection-2" property="belongs-to-collection">Harvard Classics Shelf of Fiction</meta>
+		<meta property="collection-type" refines="#collection-2">set</meta>
 		<dc:description id="description">A collection of Edgar Allan Poe’s short fiction, ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe"&gt;Edgar Allan Poe&lt;/a&gt; is one of the primary figures of American nineteenth-century literature. His writing was heavily influenced by Romanticism ideals of emotion and feeling, and although mostly known for his Gothic-tinged horror, his tales jump between many different genres, including science-fiction, satire, humor, mystery, and even early detective fiction.&lt;/p&gt;
