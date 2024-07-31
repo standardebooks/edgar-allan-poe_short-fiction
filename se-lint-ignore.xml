@@ -28,10 +28,10 @@
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
-	<file path="thou-art-the-man.xhtml">
+	<file path="the-literary-life-of-thingum-bob-esq.xhtml">
 		<ignore>
-			<code>t-005</code>
-			<reason>No need for punctuation inside quoted name.</reason>
+			<code>y-032</code>
+			<reason>Matched text correctly runs in to non-italics.</reason>
 		</ignore>
 	</file>
 	<file path="x-ing-a-paragrab.xhtml">
