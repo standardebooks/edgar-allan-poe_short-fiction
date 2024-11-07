@@ -270,7 +270,7 @@ table[epub|type~="z3998:drama"]{
 
 #never-bet-the-devil-your-head p:nth-last-child(4) > em{
 	display: block;
-	margin: 0.5em 0;
+	margin: .5em 0;
 	text-align: center;
 	text-indent: 0;
 }
