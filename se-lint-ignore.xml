@@ -21,6 +21,10 @@
 			<code>t-041</code>
 			<reason>Punctuation used as part of a cypher.</reason>
 		</ignore>
+		<ignore>
+			<code>y-034</code>
+			<reason>Punctuation used as part of a cypher.</reason>
+		</ignore>
 	</file>
 	<file path="the-devil-in-the-belfry.xhtml">
 		<ignore>
