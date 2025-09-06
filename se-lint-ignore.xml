@@ -12,6 +12,12 @@
 			<reason>MS. is the correct abbreviation for this title.</reason>
 		</ignore>
 	</file>
+	<file path="the-devil-in-the-belfry.xhtml">
+		<ignore>
+			<code>y-003</code>
+			<reason>Matched text is not a typo.</reason>
+		</ignore>
+	</file>
 	<file path="the-gold-bug.xhtml">
 		<ignore>
 			<code>t-021</code>
@@ -28,12 +34,6 @@
 		<ignore>
 			<code>y-035</code>
 			<reason>Punctuation used as part of a cypher.</reason>
-		</ignore>
-	</file>
-	<file path="the-devil-in-the-belfry.xhtml">
-		<ignore>
-			<code>y-003</code>
-			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="the-literary-life-of-thingum-bob-esq.xhtml">
