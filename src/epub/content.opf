@@ -93,17 +93,17 @@
 		<meta property="file-as" refines="#introduction-1">Robinson, William Heath</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#introduction-1">https://en.wikipedia.org/wiki/W._Heath_Robinson</meta>
 		<meta property="se:url.authority.nacoaf" refines="#introduction-1">http://id.loc.gov/authorities/names/n50049072</meta>
-		<meta property="role" refines="#introduction-1" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#introduction-1" scheme="marc:relators">win</meta>
 		<dc:contributor id="introduction-2">James Russell Lowell</dc:contributor>
 		<meta property="file-as" refines="#introduction-2">Lowell, James Russell</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#introduction-2">https://en.wikipedia.org/wiki/James_Russell_Lowell</meta>
 		<meta property="se:url.authority.nacoaf" refines="#introduction-2">http://id.loc.gov/authorities/names/n79076224</meta>
-		<meta property="role" refines="#introduction-2" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#introduction-2" scheme="marc:relators">win</meta>
 		<dc:contributor id="introduction-3">Nathaniel Parker Willis</dc:contributor>
 		<meta property="file-as" refines="#introduction-3">Willis, Nathaniel Parker</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#introduction-3">https://en.wikipedia.org/wiki/Nathaniel_Parker_Willis</meta>
 		<meta property="se:url.authority.nacoaf" refines="#introduction-3">http://id.loc.gov/authorities/names/n82113974</meta>
-		<meta property="role" refines="#introduction-3" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#introduction-3" scheme="marc:relators">win</meta>
 		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Widger, David</meta>
 		<meta property="se:url.authority.nacoaf" refines="#transcriber-1">http://id.loc.gov/authorities/names/no2011017869</meta>
