@@ -90,6 +90,7 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79029745</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="artist">Robert Delaunay</dc:contributor>
 		<meta property="file-as" refines="#artist">Delaunay, Robert</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Robert_Delaunay</meta>
@@ -99,7 +100,7 @@
 		<meta property="file-as" refines="#introduction-1">Robinson, William Heath</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#introduction-1">https://en.wikipedia.org/wiki/W._Heath_Robinson</meta>
 		<meta property="se:url.authority.nacoaf" refines="#introduction-1">http://id.loc.gov/authorities/names/n50049072</meta>
-		<meta property="role" refines="#introduction-1" scheme="marc:relators">win</meta>
+		<meta property="role" refines="#introduction-1" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="introduction-2">James Russell Lowell</dc:contributor>
 		<meta property="file-as" refines="#introduction-2">Lowell, James Russell</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#introduction-2">https://en.wikipedia.org/wiki/James_Russell_Lowell</meta>
