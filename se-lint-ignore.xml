@@ -1,54 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="endnotes.xhtml">
-		<ignore>
-			<code>s-005</code>
+		<ignore code="s-005">
 			<reason>Correctly nested blockquotes.</reason>
 		</ignore>
 	</file>
 	<file path="ms-found-in-a-bottle.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>MS. is the correct abbreviation for this title.</reason>
 		</ignore>
 	</file>
 	<file path="the-devil-in-the-belfry.xhtml">
-		<ignore>
-			<code>y-003</code>
+		<ignore code="y-003">
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 	<file path="the-gold-bug.xhtml">
-		<ignore>
-			<code>t-021</code>
+		<ignore code="t-021">
 			<reason>Punctuation used as part of a cypher.</reason>
 		</ignore>
-		<ignore>
-			<code>t-041</code>
+		<ignore code="t-041">
 			<reason>Punctuation used as part of a cypher.</reason>
 		</ignore>
-		<ignore>
-			<code>y-034</code>
+		<ignore code="y-034">
 			<reason>Punctuation used as part of a cypher.</reason>
 		</ignore>
-		<ignore>
-			<code>y-035</code>
+		<ignore code="y-035">
 			<reason>Punctuation used as part of a cypher.</reason>
 		</ignore>
 	</file>
 	<file path="the-literary-life-of-thingum-bob-esq.xhtml">
-		<ignore>
-			<code>y-032</code>
+		<ignore code="y-032">
 			<reason>Matched text correctly runs in to non-italics.</reason>
 		</ignore>
 	</file>
 	<file path="x-ing-a-paragrab.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>Non-standard title case correct here.</reason>
 		</ignore>
-		<ignore>
-			<code>t-064</code>
+		<ignore code="t-064">
 			<reason>Non-standard title case correct here.</reason>
 		</ignore>
 	</file>
