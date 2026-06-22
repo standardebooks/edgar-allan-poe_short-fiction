@@ -311,6 +311,10 @@ table[epub|type~="z3998:drama"]{
 		padding: 0 .5em 0 0;
 		writing-mode: sideways-lr;
 	}
+
+	#thou-art-the-man [epub|type~="z3998:letter"] p:first-child{
+		hanging-punctuation: none;
+	}
 }
 
 #the-literary-life-of-thingum-bob-esq > blockquote:nth-of-type(7){
