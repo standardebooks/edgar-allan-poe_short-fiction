@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/edgar-allan-poe/short-fiction</dc:identifier>
 		<dc:date>2020-11-18T00:18:28Z</dc:date>
 		<meta property="dcterms:modified">2020-11-18T00:18:28Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -47,39 +48,53 @@
 		<meta property="term" refines="#subject-5">n79029745</meta>
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh85064865</meta>
-		<meta property="se:subject">Adventure</meta>
-		<meta property="se:subject">Comedy</meta>
-		<meta property="se:subject">Horror</meta>
-		<meta property="se:subject">Mystery</meta>
-		<meta property="se:subject">Satire</meta>
-		<meta property="se:subject">Science Fiction</meta>
-		<meta property="se:subject">Shorts</meta>
-		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:genre">Adventure</meta>
+		<meta property="schema:genre">Comedy</meta>
+		<meta property="schema:genre">Horror</meta>
+		<meta property="schema:genre">Mystery</meta>
+		<meta property="schema:genre">Satire</meta>
+		<meta property="schema:genre">Science Fiction</meta>
+		<meta property="schema:genre">Shorts</meta>
+		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<meta property="se:title-in-collection" refines="#collection-1">The Telltale Heart</meta>
+		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
+		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
+		<meta property="schema:name" refines="#collection-1-entry-1">The Telltale Heart</meta>
 		<meta id="collection-2" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
-		<meta property="se:title-in-collection" refines="#collection-2">The Masque of the Red Death</meta>
+		<meta property="schema:hasPart" refines="#collection-2" id="collection-2-entry-1">schema:hasPart</meta>
+		<meta property="rdf:type" refines="#collection-2-entry-1">http://schema.org/CreativeWork</meta>
+		<meta property="schema:name" refines="#collection-2-entry-1">The Masque of the Red Death</meta>
 		<meta id="collection-3" property="belongs-to-collection">Harvard Classics Shelf of Fiction</meta>
 		<meta property="collection-type" refines="#collection-3">set</meta>
-		<meta property="se:title-in-collection" refines="#collection-3">Eleonora</meta>
+		<meta property="schema:hasPart" refines="#collection-3" id="collection-3-entry-1">schema:hasPart</meta>
+		<meta property="rdf:type" refines="#collection-3-entry-1">http://schema.org/CreativeWork</meta>
+		<meta property="schema:name" refines="#collection-3-entry-1">Eleonora</meta>
 		<meta id="collection-4" property="belongs-to-collection">Harvard Classics Shelf of Fiction</meta>
 		<meta property="collection-type" refines="#collection-4">set</meta>
-		<meta property="se:title-in-collection" refines="#collection-4">The Fall of the House of Usher</meta>
+		<meta property="schema:hasPart" refines="#collection-4" id="collection-4-entry-1">schema:hasPart</meta>
+		<meta property="rdf:type" refines="#collection-4-entry-1">http://schema.org/CreativeWork</meta>
+		<meta property="schema:name" refines="#collection-4-entry-1">The Fall of the House of Usher</meta>
 		<meta id="collection-5" property="belongs-to-collection">Harvard Classics Shelf of Fiction</meta>
 		<meta property="collection-type" refines="#collection-5">set</meta>
-		<meta property="se:title-in-collection" refines="#collection-5">The Purloined Letter</meta>
+		<meta property="schema:hasPart" refines="#collection-5" id="collection-5-entry-1">schema:hasPart</meta>
+		<meta property="rdf:type" refines="#collection-5-entry-1">http://schema.org/CreativeWork</meta>
+		<meta property="schema:name" refines="#collection-5-entry-1">The Purloined Letter</meta>
 		<meta id="collection-6" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
 		<meta property="collection-type" refines="#collection-6">set</meta>
 		<meta id="collection-7" property="belongs-to-collection">The Crime Writers’ Association Top 100 Crime Novels of All Time</meta>
 		<meta property="collection-type" refines="#collection-7">set</meta>
 		<meta property="group-position" refines="#collection-7">23</meta>
-		<meta property="se:title-in-collection" refines="#collection-7">Tales of Mystery &amp; Imagination</meta>
+		<meta property="schema:hasPart" refines="#collection-7" id="collection-7-entry-1">schema:hasPart</meta>
+		<meta property="rdf:type" refines="#collection-7-entry-1">http://schema.org/CreativeWork</meta>
+		<meta property="schema:name" refines="#collection-7-entry-1">Tales of Mystery &amp; Imagination</meta>
 		<meta id="collection-8" property="belongs-to-collection">Mystery Writers of America Top 100 Mysteries of All Time</meta>
 		<meta property="collection-type" refines="#collection-8">set</meta>
 		<meta property="group-position" refines="#collection-8">32</meta>
-		<meta property="se:title-in-collection" refines="#collection-8">Tales of Mystery &amp; Imagination</meta>
+		<meta property="schema:hasPart" refines="#collection-8" id="collection-8-entry-1">schema:hasPart</meta>
+		<meta property="rdf:type" refines="#collection-8-entry-1">http://schema.org/CreativeWork</meta>
+		<meta property="schema:name" refines="#collection-8-entry-1">Tales of Mystery &amp; Imagination</meta>
 		<dc:description id="description">A collection of Edgar Allan Poe’s short fiction, ordered by date of publication.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/edgar-allan-poe"&gt;Edgar Allan Poe&lt;/a&gt; is one of the primary figures of American nineteenth-century literature. His writing was heavily influenced by Romanticism ideals of emotion and feeling, and although mostly known for his Gothic-tinged horror, his tales jump between many different genres, including science-fiction, satire, humor, mystery, and even early detective fiction.&lt;/p&gt;
@@ -92,50 +107,46 @@
 		<dc:source>https://archive.org/details/worksofedgaralla02poeeuoft</dc:source>
 		<dc:source>https://archive.org/details/worksofedgaralla03poeeuoft</dc:source>
 		<dc:source>https://archive.org/details/worksofedgaralla04poeeuoft</dc:source>
-		<meta property="se:production-notes">
-			• Spine order from https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales.
-			• “The Balloon-Hoax” omitted from this collection as it’s a hoax article and not a piece of short fiction.
-			• Typogrify currently breaks General A. B. C.’s name, and an explicit layout in “The Gold-Bug,” so isn’t safe to run against every story.
-			• Where there are different versions we’ve gone with the version in the scans. This can lead to some fairly major differences: fox example “Berenice” loses two large paragraphs in our (1845) version compared to the earlier (1840) version.
-		</meta>
-		<meta property="se:word-count">318069</meta>
-		<meta property="se:reading-ease.flesch">57.3</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/edgar-allan-poe_short-fiction</meta>
+		<meta property="schema:wordCount">318069</meta>
+		<meta property="schema:educationalLevel">57.3</meta>
+		<link href="https://en.wikipedia.org/wiki/Edgar_Allan_Poe_bibliography#Tales" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/edgar-allan-poe_short-fiction" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Edgar Allan Poe</dc:creator>
 		<meta property="file-as" refines="#author">Poe, Edgar Allan</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Edgar_Allan_Poe</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79029745</meta>
+		<link href="https://en.wikipedia.org/wiki/Edgar_Allan_Poe" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79029745.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="artist">Robert Delaunay</dc:contributor>
 		<meta property="file-as" refines="#artist">Delaunay, Robert</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Robert_Delaunay</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50039043</meta>
+		<link href="https://en.wikipedia.org/wiki/Robert_Delaunay" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50039043.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="introduction-1">William Heath Robinson</dc:contributor>
 		<meta property="file-as" refines="#introduction-1">Robinson, William Heath</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#introduction-1">https://en.wikipedia.org/wiki/W._Heath_Robinson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#introduction-1">http://id.loc.gov/authorities/names/n50049072</meta>
+		<link href="https://en.wikipedia.org/wiki/W._Heath_Robinson" refines="#introduction-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50049072.html" refines="#introduction-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#introduction-1" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="introduction-2">James Russell Lowell</dc:contributor>
 		<meta property="file-as" refines="#introduction-2">Lowell, James Russell</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#introduction-2">https://en.wikipedia.org/wiki/James_Russell_Lowell</meta>
-		<meta property="se:url.authority.nacoaf" refines="#introduction-2">http://id.loc.gov/authorities/names/n79076224</meta>
+		<link href="https://en.wikipedia.org/wiki/James_Russell_Lowell" refines="#introduction-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79076224.html" refines="#introduction-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#introduction-2" scheme="marc:relators">win</meta>
 		<dc:contributor id="introduction-3">Nathaniel Parker Willis</dc:contributor>
 		<meta property="file-as" refines="#introduction-3">Willis, Nathaniel Parker</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#introduction-3">https://en.wikipedia.org/wiki/Nathaniel_Parker_Willis</meta>
-		<meta property="se:url.authority.nacoaf" refines="#introduction-3">http://id.loc.gov/authorities/names/n82113974</meta>
+		<link href="https://en.wikipedia.org/wiki/Nathaniel_Parker_Willis" refines="#introduction-3" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n82113974.html" refines="#introduction-3" rel="schema:sameAs"/>
 		<meta property="role" refines="#introduction-3" scheme="marc:relators">win</meta>
 		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-1">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-1" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com/</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -144,7 +155,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://thegriggs.org/david/</meta>
+		<link href="https://thegriggs.org/david/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
