@@ -33,7 +33,7 @@
 		<dc:subject id="subject-1">Short stories</dc:subject>
 		<dc:subject id="subject-2">Fantasy fiction</dc:subject>
 		<dc:subject id="subject-3">Horror tales, American</dc:subject>
-		<dc:subject id="subject-4">American fiction -- 19th century</dc:subject>
+		<dc:subject id="subject-4">American fiction--19th century</dc:subject>
 		<dc:subject id="subject-5">Poe, Edgar Allan, 1809-1849</dc:subject>
 		<dc:subject id="subject-6">Indexes</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
