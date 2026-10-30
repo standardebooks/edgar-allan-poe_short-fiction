@@ -58,27 +58,27 @@
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
+		<meta id="collection-1-entry-1" property="schema:hasPart" refines="#collection-1">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-1-entry-1">The Telltale Heart</meta>
 		<meta id="collection-2" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
-		<meta property="schema:hasPart" refines="#collection-2" id="collection-2-entry-1">schema:hasPart</meta>
+		<meta id="collection-2-entry-1" property="schema:hasPart" refines="#collection-2">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-2-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-2-entry-1">The Masque of the Red Death</meta>
 		<meta id="collection-3" property="belongs-to-collection">Harvard Classics Shelf of Fiction</meta>
 		<meta property="collection-type" refines="#collection-3">set</meta>
-		<meta property="schema:hasPart" refines="#collection-3" id="collection-3-entry-1">schema:hasPart</meta>
+		<meta id="collection-3-entry-1" property="schema:hasPart" refines="#collection-3">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-3-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-3-entry-1">Eleonora</meta>
 		<meta id="collection-4" property="belongs-to-collection">Harvard Classics Shelf of Fiction</meta>
 		<meta property="collection-type" refines="#collection-4">set</meta>
-		<meta property="schema:hasPart" refines="#collection-4" id="collection-4-entry-1">schema:hasPart</meta>
+		<meta id="collection-4-entry-1" property="schema:hasPart" refines="#collection-4">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-4-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-4-entry-1">The Fall of the House of Usher</meta>
 		<meta id="collection-5" property="belongs-to-collection">Harvard Classics Shelf of Fiction</meta>
 		<meta property="collection-type" refines="#collection-5">set</meta>
-		<meta property="schema:hasPart" refines="#collection-5" id="collection-5-entry-1">schema:hasPart</meta>
+		<meta id="collection-5-entry-1" property="schema:hasPart" refines="#collection-5">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-5-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-5-entry-1">The Purloined Letter</meta>
 		<meta id="collection-6" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
@@ -86,13 +86,13 @@
 		<meta id="collection-7" property="belongs-to-collection">The Crime Writers’ Association Top 100 Crime Novels of All Time</meta>
 		<meta property="collection-type" refines="#collection-7">set</meta>
 		<meta property="group-position" refines="#collection-7">23</meta>
-		<meta property="schema:hasPart" refines="#collection-7" id="collection-7-entry-1">schema:hasPart</meta>
+		<meta id="collection-7-entry-1" property="schema:hasPart" refines="#collection-7">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-7-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-7-entry-1">Tales of Mystery &amp; Imagination</meta>
 		<meta id="collection-8" property="belongs-to-collection">Mystery Writers of America Top 100 Mysteries of All Time</meta>
 		<meta property="collection-type" refines="#collection-8">set</meta>
 		<meta property="group-position" refines="#collection-8">32</meta>
-		<meta property="schema:hasPart" refines="#collection-8" id="collection-8-entry-1">schema:hasPart</meta>
+		<meta id="collection-8-entry-1" property="schema:hasPart" refines="#collection-8">schema:hasPart</meta>
 		<meta property="rdf:type" refines="#collection-8-entry-1">http://schema.org/CreativeWork</meta>
 		<meta property="schema:name" refines="#collection-8-entry-1">Tales of Mystery &amp; Imagination</meta>
 		<meta property="schema:abstract">A collection of Edgar Allan Poe’s short fiction, ordered by date of publication.</meta>
@@ -143,6 +143,7 @@
 		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Widger, David</meta>
 		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-1" rel="schema:sameAs"/>
+		<link href="https://www.gutenberg.net.au/widger/home.html" refines="#transcriber-1" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
